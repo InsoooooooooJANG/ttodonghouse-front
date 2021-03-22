@@ -1,7 +1,5 @@
 <template>
    <div id="Welcome">
-        <img class="img-fluid " src="../assets/ttodong.jpg" width="400px" height="400">
-            
         <div class="col-sm banner">
             <vue-carousel :data="BannerArray"></vue-carousel>
         </div>

@@ -2,6 +2,7 @@
     <div class="home"
         id="home"
         :class="[{'collapsed' : collapsed}, {'onmobile' : isOnMobile}]">
+        <img class="img-fluid " src="./assets/ttodong.jpg" width="400px" height="400">
         <router-view />
         
         <sidebar-menu 
@@ -50,7 +51,7 @@ export default {
                         icon: 'fas fa-home'
                     },
                     {
-                        href: '/pics',
+                        href: '/pics/all',
                         title: 'PICS',
                         icon: 'fas fa-cut',
                         child: [
@@ -63,7 +64,7 @@ export default {
                                 title: 'SHORT'
                             },
                             {
-                                href: '/pics/midium',
+                                href: '/pics/medium',
                                 title: 'MIDIUM'
                             },
                             {
@@ -77,17 +78,17 @@ export default {
                         ]
                     },
                     {
-                        href: '/',
+                        href: '/reservation',
                         title: 'RESERVATION',
                         icon: 'fas fa-phone'
                     },
                     {
-                        href: '/',
+                        href: '/qna',
                         title: 'QnA',
                         icon: 'fas fa-question'
                     },
                     {
-                        href: '/',
+                        href: '/about',
                         title: 'About',
                         icon: 'fas fa-cat'
                     }

@@ -14,6 +14,10 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import Welcome from "./components/Welcome.vue"
 import PICS from "./components/Pics.vue"
+import SHORTPICS from "./components/ShortPics.vue"
+import MEDIUMPICS from "./components/MediumPics.vue"
+import LONGPICS from "./components/LongPics.vue"
+import MAXPICS from "./components/MaxPics.vue"
 import RESERVATION from "./components/Reservation.vue"
 import QNA from "./components/Qna.vue"
 import ABOUT from "./components/About.vue"
@@ -39,9 +43,29 @@ const router = new VueRouter({
       component: Welcome
     },
     {
-      path: '/pics',
+      path: '/pics/all',
       name: 'PICS',
       component: PICS
+    },
+    {
+      path: '/pics/short',
+      name: 'SHORTPICS',
+      component: SHORTPICS
+    },
+    {
+      path: '/pics/medium',
+      name: 'MEDIUMPICS',
+      component: MEDIUMPICS
+    },
+    {
+      path: '/pics/long',
+      name: 'LONGPICS',
+      component: LONGPICS
+    },
+    {
+      path: '/pics/max',
+      name: 'MAXPICS',
+      component: MAXPICS
     },
     {
       path: '/reservation',
