@@ -14,10 +14,15 @@
   },
   "dependencies": {
     "@chenfengyuan/vue-carousel": "^1.0.6",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
     "bootstrap-vue": "^2.21.2",
     "mdbvue": "^6.7.2",
     "vue": "^2.6.12",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vue-sidebar-menu": "^4.7.4"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
